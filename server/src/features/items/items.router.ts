@@ -1,6 +1,5 @@
 import express from "express";
 import { getItemDetail, getItems } from "./items.service";
-import { resolve } from "path";
 import { validate } from "../../middleware/validation.middleware";
 import { idNumberRequestSchema } from "../types";
 
